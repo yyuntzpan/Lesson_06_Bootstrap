@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+<body >
+  <nav id="navbar-example1" class="navbar navbar-light bg-light px-3 ">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">關於我們</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">最新消息</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading3">熱門商品</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading4">門市資訊</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading5">聯絡我們</a>
+      </li>
+    </ul>
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example1" data-bs-offset="0" class="scrollspy-example position-relative " style="height:500px;overflow:scroll" tabindex="0" >
+    <div id="scrollspyHeading1" style="height:300px;background-color: tomato;">First heading</div>
+    <div id="scrollspyHeading2" style="height:300px;background-color: forestgreen">Second heading</div>
+    <div id="scrollspyHeading3" style="height:300px;background-color: darkkhaki">Third heading</div>
+    <div id="scrollspyHeading4" style="height:300px;background-color: darkcyan;">Fourth heading</div>
+    <div id="scrollspyHeading5" style="height:500px;background-color: darkslateblue;">Fifth heading</div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+</html>

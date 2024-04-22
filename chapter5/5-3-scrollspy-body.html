@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    #section1{
+      margin-top: 90px;
+    }
+    #section1, #section2, #section3, #section4, #section5 {
+      min-height: 500px;
+    }
+  </style>
+  <title>Scrollspy body 範例</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50" class="position-relative">
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#section1">關於我們</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section2">最新消息</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section3">熱門商品</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section4">門市資訊</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section5">聯絡我們</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="section1" class="container">
+    <h1>關於我們</h1>
+  </div>
+  <div id="section2" class="container">
+    <h1>最新消息</h1>
+  </div>
+  <div id="section3" class="container">
+    <h1>熱門商品</h1>
+  </div>
+  <div id="section4" class="container">
+    <h1>門市資訊</h1>
+  </div>
+  <div id="section5" class="container">
+    <h1>聯絡我們</h1>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+</html>

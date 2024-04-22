@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 掛載 Boostrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <h1 class="mt-5">Bootstrap 元件範例</h1>
+
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">導覽列</a>
+    </nav>
+
+    <!-- 導覽與頁籤 -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">頁籤 1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">頁籤 2</a>
+      </li>
+    </ul>
+
+    <!-- 卡片 -->
+    <div class="card" style="width: 18rem;">
+      <img src="https://via.placeholder.com/150" class="card-img-top" alt="範例圖像">
+      <div class="card-body">
+        <h5 class="card-title">卡片標題</h5>
+        <p class="card-text">這是卡片的範例文字。</p>
+        <a href="#" class="btn btn-primary">瞭解更多</a>
+      </div>
+    </div>
+
+    <!-- 互動視窗 -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      打開互動視窗
+    </button>
+
+    <!-- 警報框 -->
+    <div class="alert alert-success" role="alert">
+      這是一個成功的警報框範例。
+    </div>
+
+    <!-- 按鈕 -->
+    <button type="button" class="btn btn-primary">按鈕</button>
+
+    <!-- 下拉菜單 -->
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        下拉菜單
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">選項 1</a>
+        <a class="dropdown-item" href="#">選項 2</a>
+        <a class="dropdown-item" href="#">選項 3</a>
+      </div>
+    </div>
+
+    <!-- 面包屑 -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">首頁</a></li>
+        <li class="breadcrumb-item"><a href="#">分類</a></li>
+        <li class="breadcrumb-item active" aria-current="page">當前頁面</li>
+      </ol>
+    </nav>
+
+    <!-- 分頁 -->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">上一頁</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">下一頁</a></li>
+      </ul>
+    </nav>
+
+    <!-- 進度條 -->
+    <div class="progress">
+      <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    <!-- 彈出框 -->
+    <a tabindex="0" class="btn btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="彈出框標題" data-content="這是一個彈出框範例">彈出框</a>
+
+    <!-- 工具提示 -->
+    <a href="#" data-toggle="tooltip" title="這是一個工具提示範例">滑鼠懸停以查看工具提示</a>
+
+    <!-- 手風琴 -->
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              手風琴項 1
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            這是手風琴項 1 的內容。
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              手風琴項 2
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            這是手風琴項 2 的內容。
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+
+  </div>
+
+  <!-- 掛載 Boostrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
