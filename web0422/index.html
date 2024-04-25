@@ -10,16 +10,19 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/styles.css">
-
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="d-flex flex-column h-100">
     <!-- 主要內容 -->
     <main class="flex-shrink-0">
         <!-- navBar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./img/nav-logo.png" alt="" width="30" height="30"
+                <a class="navbar-brand" href="index.html"><img src="./img/nav-logo.png" alt="" width="30" height="30"
                         class="d-inline-block align-text-top"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -68,23 +71,24 @@
                             <a class="nav-link disabled ">Disabled</a>
                         </li> -->
                     </ul>
-                    <div class="d-flex fs-4 text-white me-5">
+                    <div class="d-flex justify-content-end  ">
+                        <!-- 會員icon -->
                         <a class="navbar-brand position-relative" href="javascript:;" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">
-                            登入
+                            <i class="fa-solid fa-user vertical-align"></i>
                         </a>
                         <!-- 購物車icon -->
                         <a class="navbar-brand position-relative" data-bs-toggle="offcanvas" href="#offcanvasExample"
                             role="button" aria-controls="offcanvasExample" href="#">
-                            <i class="bi bi-cart-fill fs-0"></i>
-                            <span
-                                class="position-absolute top-0 translate-middle badge rounded-pill bg-danger right-minus-10 fs-6">
-                                0
-                                <span class="visually-hidden">
+                            <i class="fa-solid fa-cart-shopping "><span
+                                    class="p-1 mt-1 position-absolute top-0 start-100 translate-middle coustom-badge rounded-pill bg-danger " ">
+                                    0
+                                    <span class=" visually-hidden">
                                     unread messages
 
                                 </span>
-                            </span>
+                                </span></i>
+
                         </a>
                     </div>
                 </div>
@@ -92,7 +96,7 @@
         </nav>
 
         <!-- 麵包屑 -->
-        <div class="bg-light p-3 mb-5">
+        <div class="d-none text-center bg-light p-3 ">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -140,19 +144,19 @@
         <!-- 喝飲料 -->
         <div class="container">
             <div class="row">
-                <h2 class="clo-12 text-center m-5">喝飲料</h2>
-                <col-12 class="col-md-6 col-xl-3">
-                    <div class="position-relative">
-                        <img src="img/drink01.jpg" alt="" class="w-100"><img src="img/new_icon.png" alt=""
+                <h2 class="clo-12 text-center my-5">喝飲料</h2>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="position-relative rounded-3">
+                        <img src="img/drink01.jpg" alt="" class="w-100 rounded-3"><img src="img/new_icon.png" alt=""
                             class="position-absolute end-0 top-0">
-                        <div class="bg-primary text-white position-absolute start-0 top-0 p-2">icon</div>
-                        <div class="position-absolute end-0 bottom-0 pb-3 pe-1 fs-1 text-danger">
+                        <div class="rounded bg-primary text-white position-absolute start-0 top-0 p-2">icon</div>
+                        <div class=" position-absolute end-0 bottom-0 pb-3 pe-1 fs-1 text-danger ">
                             <i class="bi bi-heart"></i>
                         </div>
                         <p>圖片名稱</p>
                     </div>
-                </col-12>
-                <col-12 class="col-md-6 col-xl-3">
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
                     <div class="position-relative">
                         <img src="img/drink02.jpg" alt="" class="w-100"><img src="img/new_icon.png" alt=""
                             class="position-absolute end-0 top-0">
@@ -164,8 +168,8 @@
                         </div>
                         <p>圖片名稱</p>
                     </div>
-                </col-12>
-                <col-12 class="col-md-6 col-xl-3">
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
                     <div class="position-relative">
                         <img src="img/drink03.jpg" alt="" class="w-100"><img src="img/new_icon.png" alt=""
                             class="position-absolute end-0 top-0">
@@ -177,8 +181,8 @@
                         </div>
                         <p>圖片名稱</p>
                     </div>
-                </col-12>
-                <col-12 class="col-md-6 col-xl-3">
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
                     <div class="position-relative">
                         <img src="img/drink04.jpg" alt="" class="w-100"><img src="img/new_icon.png" alt=""
                             class="position-absolute end-0 top-0">
@@ -190,8 +194,8 @@
                         </div>
                         <p>圖片名稱</p>
                     </div>
-                </col-12>
-                <col-12 class="col-md-6 col-xl-3">
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
                     <div class="position-relative">
                         <img src="img/drink05.jpg" alt="" class="w-100"><img src="img/new_icon.png" alt=""
                             class="position-absolute end-0 top-0">
@@ -203,8 +207,8 @@
                         </div>
                         <p>圖片名稱</p>
                     </div>
-                </col-12>
-                <col-12 class="col-md-6 col-xl-3">
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
                     <div class="position-relative">
                         <img src="img/drink06.jpg" alt="" class="w-100"><img src="img/new_icon.png" alt=""
                             class="position-absolute end-0 top-0">
@@ -216,8 +220,8 @@
                         </div>
                         <p>圖片名稱</p>
                     </div>
-                </col-12>
-                <col-12 class="col-md-6 col-xl-3">
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
                     <div class="position-relative">
                         <img src="img/drink07.jpg" alt="" class="w-100"><img src="img/new_icon.png" alt=""
                             class="position-absolute end-0 top-0">
@@ -229,8 +233,8 @@
                         </div>
                         <p>圖片名稱</p>
                     </div>
-                </col-12>
-                <col-12 class="col-md-6 col-xl-3">
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
                     <div class="position-relative">
                         <img src="img/drink08.jpg" alt="" class="w-100"><img src="img/new_icon.png" alt=""
                             class="position-absolute end-0 top-0">
@@ -242,7 +246,7 @@
                         </div>
                         <p>圖片名稱</p>
                     </div>
-                </col-12>
+                </div>
             </div>
         </div>
 

@@ -66,8 +66,8 @@
 }
 
 .right-minus-10 {
-    right: -40px;
-    top: -20px;
+    right: 0px;
+    top: 0px;
 
 }
 
@@ -81,4 +81,22 @@
 
 .z-index-999 {
     z-index: 999;
+}
+
+.breadcrumb {
+    margin: 0;
+}
+
+.coustom-badge {
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    font-size: 0.5em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
 }
