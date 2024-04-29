@@ -116,7 +116,16 @@ a{
 
 .fs-navHead{
     font-weight: 500;
-    font-size: .8125rem;
-    line-height: 1.3125rem;
+    font-size: .7rem;
+    line-height: .75rem;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.line-h075{
+    line-height: .75rem;
+}
+
 
