@@ -134,7 +134,18 @@ a{
 
 .fs-14{
     font-size: .8125rem;
-    line-height: 1.5rem;
+    line-height: 1rem;
     font-weight: 400;
     letter-spacing: .075em; ;
+}
+
+.w-30px{
+    width:30px;
+}
+.h-30px{
+    height:30px;
+}
+
+.bg-pattern{
+    background-image: url("../img/bg-pattern.png");
 }
