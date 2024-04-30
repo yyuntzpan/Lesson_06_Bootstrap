@@ -10366,6 +10366,13 @@ a {
   letter-spacing: 0.075em;
 }
 
+.fs-min {
+  font-size: 0.8rem;
+  line-height: 1.15rem;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+}
+
 .w-30px {
   width: 30px;
 }
