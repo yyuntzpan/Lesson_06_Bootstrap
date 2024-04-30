@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>商品列表</title>
+    <title>最新推出</title>
     <!-- 掛載boostrap cdn-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -92,7 +92,7 @@
                                 <li><a class="dropdown-item" href="./about.html">經典商品</a></li>
                                 <li><a class="dropdown-item" href="./news.html">最新推出</a></li>
                                 <li>
-                                <li><a class="dropdown-item" href="./mos-burger.html">!!Outlet!!</a></li>
+                                <li><a class="dropdown-item" href="product-list.html">!!Outlet!!</a></li>
                             </ul>
                         </li>
 
@@ -100,7 +100,7 @@
                             <a class="nav-link" href="./news.html">最新推出</a>
                         </li>
                         <li class="nav-item pe-4">
-                            <a class="nav-link" href="./mos-burger.html">商品列表</a>
+                            <a class="nav-link" href="product-list.html">商品列表</a>
                         </li>
                         <li class="nav-item pe-4">
                             <a class="nav-link" href="./about.html">關於我們</a>
@@ -125,64 +125,196 @@
         </nav>
 
         <!-- 麵包屑 -->
-        <div class="d-none text-center bg-light p-3 ">
+        <div class=" bg-light p-3 fs-minn">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">首頁</li>
+                    <li class="breadcrumb-item"><a class="text-decoration-none" href="#">選購</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">商品列表</li>
                 </ol>
             </nav>
         </div>
 
-        <!-- 學習mos burger -->
-        <!-- 1.容器>2.列>3.欄+欄>4.列>5.欄 -->
+        <div class="container-fluid ">
+            <div class="row ">
 
-        <!-- .container>.row>.col-md-3{sidebar}+.col-md-9{右邊內容}>.row>.col-6.col-md-3*8>a>img.w-100[src="img/mos ($).jpg"]^P.text-center>a{item-name} -->
-        <div class="container">
-            <div class="row">
-                <h2 class="col-12 text-center mb-5">摩斯堡堡</h2>
-                <div class="col-md-3">sidebar</div>
-                <div class="col-md-9">
-                    <div class="row">
-                        <div class="col-6 col-md-3">
-                            <a href=""><img src="img/mos (1).jpg" alt="" class="w-100"></a>
-                            <P class="text-center"><a href="">熱狗堡</a></P>
+                <!-- 此頁抬頭 -->
+                <div class="col-12 bg-light text-sm-center">
+                    <h2 class="fs-5 col-12 ">錢包皮夾</h2>
+                    <p class="fs-min">我們的錢包採用優質耐用的素材製成，質感極佳；隨著歲月流逝，也會與您一起優雅地老去。</p>
+                </div>
+
+                <!-- 商品區塊 -->
+                <div class="row g-1 m-0">
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="bg-light">
+                            <a href="" class="text-decoration-none ">
+                                <img src="img/newsitem_1.jpeg" alt="" class="w-100 py-5">
+                                <div class="pb-2 ps-2 fs-min">
+                                    <p class="mb-1 text-dark">Tokyo Side Bag</p>
+                                    <p class="mb-1 text-dark">$4,790</p>
+                                    <div class="d-flex flex-row bd-highlight mb-1">
+                                        <div class="bg-black circle circle-active me-2 my-2"></div>
+                                        <div class="bg-primary circle me-2 my-2"></div>
+                                        <div class="bg-danger circle me-2 my-2"></div>
+                                        <div class="bg-info circle me-2 my-2"></div>
+                                    </div>
+                                    <p class="mb-1 fs-minn">1L／利落、簡潔的斜背包</p>
+                                </div>
                         </div>
-                        <div class="col-6 col-md-3">
-                            <a href=""><img src="img/mos (2).jpg" alt="" class="w-100"></a>
-                            <P class="text-center"><a href="">米漢堡</a></P>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="bg-light">
+                            <a href="" class="text-decoration-none ">
+                                <img src="img/newsitem_2.jpeg" alt="" class="w-100 py-5">
+                                <div class="pb-2 ps-2 fs-min">
+                                    <p class="mb-1 text-dark">Tokyo Side Bag</p>
+                                    <p class="mb-1 text-dark">$4,790</p>
+                                    <div class="d-flex flex-row bd-highlight mb-1">
+                                        <div class="bg-black circle me-2 my-2"></div>
+                                        <div class="bg-primary circle me-2 my-2"></div>
+                                        <div class="bg-success circle circle-active me-2 my-2"></div>
+                                        <div class="bg-danger circle me-2 my-2"></div>
+                                        <div class="bg-info circle me-2 my-2"></div>
+                                    </div>
+                                    <p class="mb-1 fs-minn">1L／利落、簡潔的斜背包</p>
+                                </div>
                         </div>
-                        <div class="col-6 col-md-3">
-                            <a href=""><img src="img/mos (3).jpg" alt="" class="w-100"></a>
-                            <P class="text-center"><a href="">麵包漢堡</a></P>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="bg-light">
+                            <a href="" class="text-decoration-none ">
+                                <img src="img/newsitem_3.jpeg" alt="" class="w-100 py-5">
+                                <div class="pb-2 ps-2 fs-min">
+                                    <p class="mb-1 text-dark">Tokyo Side Bag</p>
+                                    <p class="mb-1 text-dark">$4,790</p>
+                                    <div class="d-flex flex-row bd-highlight mb-1">
+                                        <div class="bg-black circle me-2 my-2"></div>
+                                        <div class="bg-primary circle me-2 my-2"></div>
+                                        <div class="bg-danger circle circle-active me-2 my-2"></div>
+                                        <div class="bg-info circle me-2 my-2"></div>
+                                    </div>
+                                    <p class="mb-1 fs-minn">1L／利落、簡潔的斜背包</p>
+                                </div>
                         </div>
-                        <div class="col-6 col-md-3">
-                            <a href=""><img src="img/mos (4).jpg" alt="" class="w-100"></a>
-                            <P class="text-center"><a href="">鮮蔬堡</a></P>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="bg-light">
+                            <a href="" class="text-decoration-none ">
+                                <img src="img/newsitem_4.jpeg" alt="" class="w-100 py-5">
+                                <div class="pb-2 ps-2 fs-min">
+                                    <p class="mb-1 text-dark">Tokyo Side Bag</p>
+                                    <p class="mb-1 text-dark">$4,790</p>
+                                    <div class="d-flex flex-row bd-highlight mb-1">
+                                        <div class="bg-dark circle circle-active me-2 my-2"></div>
+                                        <div class="bg-primary circle me-2 my-2"></div>
+                                        <div class="bg-danger circle me-2 my-2"></div>
+                                        <div class="bg-info circle me-2 my-2"></div>
+                                    </div>
+                                    <p class="mb-1 fs-minn">1L／利落、簡潔的斜背包</p>
+                                </div>
                         </div>
-                        <div class="col-6 col-md-3">
-                            <a href=""><img src="img/mos (5).jpg" alt="" class="w-100"></a>
-                            <P class="text-center"><a href="">蝦米堡</a></P>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="bg-light">
+                            <a href="" class="text-decoration-none ">
+                                <img src="img/newsitem_5.jpeg" alt="" class="w-100 py-5">
+                                <div class="pb-2 ps-2 fs-min">
+                                    <p class="mb-1 text-dark">Tokyo Side Bag</p>
+                                    <p class="mb-1 text-dark">$4,790</p>
+                                    <div class="d-flex flex-row bd-highlight mb-1">
+                                        <div class="bg-black circle circle-active me-2 my-2"></div>
+                                        <div class="bg-primary circle me-2 my-2"></div>
+                                        <div class="bg-danger circle me-2 my-2"></div>
+                                        <div class="bg-info circle me-2 my-2"></div>
+                                    </div>
+                                    <p class="mb-1 fs-minn">1L／利落、簡潔的斜背包</p>
+                                </div>
                         </div>
-                        <div class="col-6 col-md-3">
-                            <a href=""><img src="img/mos (6).jpg" alt="" class="w-100"></a>
-                            <P class="text-center"><a href="">米寶寶</a></P>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="bg-light">
+                            <a href="" class="text-decoration-none ">
+                                <img src="img/newsitem_6.jpeg" alt="" class="w-100 py-5">
+                                <div class="pb-2 ps-2 fs-min">
+                                    <p class="mb-1 text-dark">Tokyo Side Bag</p>
+                                    <p class="mb-1 text-dark">$4,790</p>
+                                    <div class="d-flex flex-row bd-highlight mb-1">
+                                        <div class="bg-black circle circle-active me-2 my-2"></div>
+                                        <div class="bg-primary circle me-2 my-2"></div>
+                                        <div class="bg-danger circle me-2 my-2"></div>
+                                        <div class="bg-info circle me-2 my-2"></div>
+                                    </div>
+                                    <p class="mb-1 fs-minn">1L／利落、簡潔的斜背包</p>
+                                </div>
                         </div>
-                        <div class="col-6 col-md-3">
-                            <a href=""><img src="img/mos (7).jpg" alt="" class="w-100"></a>
-                            <P class="text-center"><a href="">肉肉米堡</a></P>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="bg-light">
+                            <a href="" class="text-decoration-none ">
+                                <img src="img/newsitem_7.jpeg" alt="" class="w-100 py-5">
+                                <div class="pb-2 ps-2 fs-min">
+                                    <p class="mb-1 text-dark">Tokyo Side Bag</p>
+                                    <p class="mb-1 text-dark">$4,790</p>
+                                    <div class="d-flex flex-row bd-highlight mb-1">
+                                        <div class="bg-black circle circle-active me-2 my-2"></div>
+                                        <div class="bg-primary circle me-2 my-2"></div>
+                                        <div class="bg-danger circle me-2 my-2"></div>
+                                        <div class="bg-info circle me-2 my-2"></div>
+                                    </div>
+                                    <p class="mb-1 fs-minn">1L／利落、簡潔的斜背包</p>
+                                </div>
                         </div>
-                        <div class="col-6 col-md-3">
-                            <a href=""><img src="img/mos (8).jpg" alt="" class="w-100"></a>
-                            <P class="text-center"><a href="">炸蝦堡</a></P>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="bg-light">
+                            <a href="" class="text-decoration-none ">
+                                <img src="img/newsitem_8.jpeg" alt="" class="w-100 py-5">
+                                <div class="pb-2 ps-2 fs-min">
+                                    <p class="mb-1 text-dark">Tokyo Side Bag</p>
+                                    <p class="mb-1 text-dark">$4,790</p>
+                                    <div class="d-flex flex-row bd-highlight mb-1">
+                                        <div class="bg-black circle me-2 my-2"></div>
+                                        <div class="bg-primary circle circle-active me-2 my-2"></div>
+                                        <div class="bg-danger circle me-2 my-2"></div>
+                                        <div class="bg-info circle me-2 my-2"></div>
+                                    </div>
+                                    <p class="mb-1 fs-minn">1L／利落、簡潔的斜背包</p>
+                                </div>
                         </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                        <div class="bg-light">
+                            <a href="" class="text-decoration-none ">
+                                <img src="img/newsitem_9.jpeg" alt="" class="w-100 py-5">
+                                <div class="pb-2 ps-2 fs-min">
+                                    <p class="mb-1 text-dark">Tokyo Side Bag</p>
+                                    <p class="mb-1 text-dark">$4,790</p>
+                                    <div class="d-flex flex-row bd-highlight mb-1">
+                                        <div class="bg-black circle circle-active me-2 my-2"></div>
+                                        <div class="bg-primary circle me-2 my-2"></div>
+                                        <div class="bg-danger circle me-2 my-2"></div>
+                                        <div class="bg-info circle me-2 my-2"></div>
+                                    </div>
+                                    <p class="mb-1 fs-minn">1L／利落、簡潔的斜背包</p>
+                                </div>
+                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
+
+        </div>
         </div>
         <!-- 蒐集email -->
-        <div class=" bg-secondary">
-
+        <div class=" bg-secondary mt-1">
             <div class=" p-5">
                 <form class="row align-items-center text-center">
                     <div class="col-12 col-md-8 mx-auto mb-3">
@@ -360,7 +492,7 @@
 
 
     <!-- fixed 回到top -->
-    <a href="javascript:;"
+    <a href="#"
         class="rounded-pill position-fixed end-0 bottom-0 bg-primary text-white m-4 mb-5 text-decoration-none w-30px h-30px position-relative"><i
             class="fa-solid fa-angle-up position-absolute top-50 start-50 translate-middle"></i></a>
 
