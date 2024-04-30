@@ -10347,3 +10347,14 @@ a {
 .line-h075 {
   line-height: 0.75rem;
 }
+
+.bg-costom {
+  background-color: #F7F7F7;
+}
+
+.fs-14 {
+  font-size: 0.8125rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.075em;
+}
