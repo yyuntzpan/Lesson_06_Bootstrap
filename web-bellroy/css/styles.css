@@ -4377,7 +4377,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: rgba(247, 247, 247, 0);
   border: 0;
   border-radius: 0;
   overflow-anchor: none;
@@ -4428,7 +4428,7 @@ textarea.form-control-lg {
 }
 
 .accordion-item {
-  background-color: #fff;
+  background-color: rgba(247, 247, 247, 0);
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 .accordion-item:first-of-type {
@@ -10352,6 +10352,10 @@ a {
   background-color: #F7F7F7;
 }
 
+.letter-space {
+  letter-spacing: 0.2em;
+}
+
 .fs-14 {
   font-size: 0.8125rem;
   line-height: 1rem;
@@ -10397,7 +10401,7 @@ a {
 }
 
 .border-t-1 {
-  border-top: 1px solid #808080;
+  border-top: 1px solid #bababa;
 }
 
 .circle {
